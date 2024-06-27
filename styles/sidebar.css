@@ -4,9 +4,8 @@
     bottom: 0;
     top: 55px;
     background-color: white;
-    width: 72px;
+    width: 76px;
     padding-top: 5px;
-    cursor: pointer;
     
     z-index: 200;
 }
@@ -17,6 +16,10 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-left: 4px;
+    margin-right: px;
 }
 
 .sidebar-link:hover {
