@@ -99,20 +99,11 @@
     border-radius: 2px;
     font-size: 12px;
     opacity: 0;
-    right: 5px;
     bottom: -35px;
     transition: opacity 0.15s;
 
     pointer-events: none;
     white-space: nowrap;
-}
-
-.voice-search-button .tooltip {
-    right: -45px;
-}
-
-.upload-icon-container .tooltip {
-    right: -11px;
 }
 
 .search-button:hover .tooltip,
