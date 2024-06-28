@@ -30,7 +30,8 @@
     margin-top: 30px;
     display: flex;
     align-items: center;
-    background-color: white;
+    background-color: rgb(24, 24, 24);
+    color: rgb(241, 241, 241);
     box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.3);
     padding-top: 12px;
     padding-bottom: 12px;
@@ -72,7 +73,7 @@
 .channel-subscriber-tooltip {
     font-weight: 400;
     font-size: 13px;
-    color: rgb(96, 96, 96);
+    color: rgb(170, 170, 170);
 }
 
 .video-title {
@@ -84,13 +85,12 @@
 
 .video-title-link {
     text-decoration: none;
-    color: black;
 }
 
 .video-author,
 .video-stat {
     font-size: 12px;
-    color: rgb(96, 96, 96)
+    color: rgb(170, 170, 170)
 }
 
 .video-author {
@@ -191,7 +191,7 @@
 .video-time {
     font-size: 12px;
     font-weight: 500;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.5);
     color: white;
     position: absolute;
     bottom: 10px;
