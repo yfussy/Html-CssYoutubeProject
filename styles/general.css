@@ -13,9 +13,9 @@ body {
     padding-right: 24px;
     background-color: rgb(15, 15, 15);
 }
-
-@media (min-width:1200.1px) {
+/* Hamburger Menu -> extend side bar */
+/* @media (min-width:1200.1px) {
     body {
         padding-left: 245px;
     }
-}
+} */
