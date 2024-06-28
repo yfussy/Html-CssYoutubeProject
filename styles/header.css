@@ -67,11 +67,10 @@
     padding-right: 4px;
     font-size: 16px;
     background-color: rgb(15, 15, 15);
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(48, 48, 48);
+    border: 1px solid rgb(48, 48, 48);
     border-top-left-radius: 40px;
     border-bottom-left-radius: 40px;
+    margin-right: -1px;
     width: 0;
 }
 
@@ -86,7 +85,6 @@
     border: 1px solid rgb(48, 48, 48);
     border-top-right-radius: 40px;
     border-bottom-right-radius: 40px;
-    margin-left: -1px;
     margin-right: 10px;
     cursor: pointer;
 }
