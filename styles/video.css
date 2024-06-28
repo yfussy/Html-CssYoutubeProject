@@ -76,6 +76,10 @@
     color: rgb(170, 170, 170);
 }
 
+.video-info {
+    position: relative;
+}
+
 .video-title {
     font-size: 14px;
     font-weight: 500;
@@ -97,6 +101,29 @@
     text-decoration: none;
     margin-bottom: 4px;
     cursor: pointer;
+}
+
+.video-author-link .tooltip {
+    position: absolute;
+    background-color: rgb(112, 112, 112);
+    color: white;
+    padding: 10px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    opacity: 0;
+    bottom: 45px;
+    transition: opacity 0.15s;
+
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+.video-author:hover {
+    color: rgb(236, 236, 236);
+}
+
+.video-author-link:hover .tooltip {
+    opacity: 0.92;
 }
 
 .video-author-link {

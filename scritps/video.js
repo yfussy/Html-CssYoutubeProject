@@ -47,6 +47,9 @@ function renderVideoPreview() {
                             <p class="video-author">
                                 ${video.channel}
                             </p>
+                            <div class="tooltip">
+                                ${video.channel}
+                            </div>
                         </a>
             
                         <p class="video-stat">
