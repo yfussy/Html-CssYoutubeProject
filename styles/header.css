@@ -23,10 +23,27 @@
     align-items: center;
 }
 
-.hamburger-menu {
-    height: 20px;
+.hamburger-menu-container {
     margin-left: 24px;
     margin-right: 24px;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(212, 212, 212, 0);
+    cursor: pointer;
+
+    transition: background-color 0.15s;
+}
+
+.hamburger-menu-container:hover {
+    background-color: rgba(212, 212, 212, 0.8);
+}
+
+.hamburger-menu {
+    margin: 8px;
+    height: 24px;
+    cursor: pointer;
 }
 
 .youtube-logo {
